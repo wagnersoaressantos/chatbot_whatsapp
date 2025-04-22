@@ -28,7 +28,7 @@ os.environ['HUGGINGFACE_API_KEY'] = config('HUGGINGFACE_API_KEY')
 
 
 if __name__ == '__main__':
-    file_path = '/app/rag/data/USF_BOM_JESUS_2-ATALIZADO-20-04-2025.pdf'
+    file_path = '/app/rag/data/USF_BOM_JESUS_2_ATUALIZADO_22_04_2025.pdf'
     loader = PyPDFLoader(file_path)
     docs = loader.load()
 

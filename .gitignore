@@ -1,1 +1,4 @@
 .env
+rag/data/USF_BOM_JESUS_2_ATUALIZADO_22_04_2025.pdf
+chroma_data/
+.gitignore
